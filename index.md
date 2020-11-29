@@ -1,3 +1,32 @@
-<h1> Under construction... </h1>
-
-
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Todo List</h1>
+        
+        <div>
+            <button onclick="handlers.addTodo()">Add</button>
+            <input id="addTodoInputText" type="text">
+        </div>
+        
+        <div>
+            <button onclick="handlers.changeTodo()">Change Todo</button>
+            <input id="changeTodoInputPosition" type="number">
+            <input id="changeTodoInputText" type="text">
+        </div>
+        
+        <div>
+            <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
+            <input id="toggleCompletedInputPosition" type="number">
+        </div>
+        
+        <div>
+            <button onclick="handlers.toggleAll()">Toggle All</button>
+        </div>
+        
+        <ul>
+        </ul>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
